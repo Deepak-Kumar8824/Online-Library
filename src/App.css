@@ -1,0 +1,32 @@
+body{
+font-family:Arial;
+background:#f4f4f4;
+margin:0;
+}
+
+.navbar{
+display:flex;
+justify-content:space-between;
+padding:15px;
+background:#222;
+color:white;
+}
+
+.navbar a{
+color:white;
+margin:10px;
+text-decoration:none;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+}
+
+.book-card{
+border:1px solid #ddd;
+padding:15px;
+border-radius:10px;
+background:white;
+}
