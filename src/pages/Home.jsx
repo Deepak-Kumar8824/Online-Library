@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux";
 import BookCard from "../components/BookCard";
-
+// Home page displaying welcome message and categories
 function Home() {
   const books = useSelector((state) => state.books);
 
