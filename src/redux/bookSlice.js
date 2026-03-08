@@ -1,6 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 import booksData from "../data/books";
 
+// Redux slice for managing books
 const bookSlice = createSlice({
   name: "books",
   initialState: booksData,
