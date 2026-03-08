@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+// Navbar component for navigation
 function Navbar() {
   return (
     <nav className="navbar">
