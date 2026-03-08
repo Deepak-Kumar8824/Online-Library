@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+// BookCard component to display book information
 function BookCard({ book }) {
   return (
     <div className="book-card">
