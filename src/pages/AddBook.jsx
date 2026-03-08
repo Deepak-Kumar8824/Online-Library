@@ -3,6 +3,8 @@ import { useDispatch } from "react-redux";
 import { addBook } from "../redux/bookSlice";
 import { useNavigate } from "react-router-dom";
 
+
+// Form for adding new books
 function AddBook() {
 
   const [form, setForm] = useState({
