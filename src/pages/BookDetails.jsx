@@ -1,6 +1,7 @@
 import { useParams, Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 
+// Book details page showing full information
 function BookDetails() {
   const { id } = useParams();
   const books = useSelector((state) => state.books);
