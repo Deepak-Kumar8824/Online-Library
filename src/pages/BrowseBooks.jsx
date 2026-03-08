@@ -22,7 +22,7 @@ function BrowseBooks() {
       book.title.toLowerCase().includes(search.toLowerCase()) ||
       book.author.toLowerCase().includes(search.toLowerCase())
   );
-
+  // Browse books page with filtering
   return (
     <div>
 
